@@ -1,0 +1,13 @@
+# Solution 1
+
+a = int(input())
+b = int(input())
+print("%d\n%d\n%d" %(a+b, a-b, a*b))
+
+# Solution 2
+
+a = int(input())
+b = int(input())
+print(a+b)
+print(a-b)
+print(a8b)
