@@ -1,0 +1,45 @@
+# Solution 1
+
+if __name__ == '__main__':
+    n = int(input().strip())
+    if (n%2 != 0): 
+        print("Weird")
+    elif (n%2 == 0) and (2<=n<=5): 
+        print("Not Weird")
+    elif (n%2 == 0) and (6<=n<=20):
+        print("Weird")
+    elif (n%2 == 0 ) and (n>=20): 
+        print("Not Weird")
+        
+   Solution 2: 
+   
+   
+# Solution 2:
+
+n= int(input().strip())
+if n%2 == 0 and (n>20 or n in range(2,6)): 
+    print("Not Weird")
+else:
+    print("Weird")
+    
+
+# Soution 3:
+ 
+n= int(input().strip())
+if n%2 != 0 or (n >= 6 and n <= 20): 
+    print("Weird")
+else: 
+    print("Not Weird")
+    
+    
+ # Solution 4: 
+ n = int(input().strip())
+ if n%2 == 1: 
+     print("Weird")
+  else:
+      if(n >= 2 and n <= 5) or (n > 20):
+         print("Not Weird")
+      else:
+         print("Weird")
+     
+    
