@@ -1,13 +1,30 @@
-# Solution 1
+# Solution 1:
 
 a = int(input())
 b = int(input())
 print("%d\n%d\n%d" %(a+b, a-b, a*b))
 
-# Solution 2
+# Solution 2:
 
 a = int(input())
 b = int(input())
 print(a+b)
 print(a-b)
 print(a8b)
+
+# Solution 3: 
+
+def add(a,b):
+    return a+b
+
+def sub(a,b):
+    return a-b
+
+def mul(a,b):
+    return a*b
+
+a = int(input())
+b = int(input())
+print(add(a,b))
+print(sub(a,b))
+print(mul(a,b))
